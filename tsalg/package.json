@@ -1,0 +1,19 @@
+{
+  "name": "tsalg",
+  "version": "0.0.1",
+  "description": "TS Alg project: this file is mainly for pulling node_modules for image creation.",
+  "main": "index.js",
+  "typings": "typings/index.d.ts",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Carl Xiong <xiongc05@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "gulp": "^3.9.1",
+    "gulp-mocha": "^2.2.0",
+    "gulp-typescript": "^2.13.6",
+    "mocha": "^2.5.3"
+  }
+}
