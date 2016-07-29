@@ -1,0 +1,8 @@
+#!/bin/sh
+
+# simple script to wrapper around `clang-check`.
+#
+# 1. add '--' to the end, so there is no 'compilation database' not found warnings.
+# (TODO: where this behavior is documented?)
+
+/usr/bin/clang-check-3.8 $* --
