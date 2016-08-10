@@ -1,0 +1,11 @@
+{
+  "name": "vorpal-toolbox",
+  "version": "0.0.1",
+  "description": "Learning to build CLI tools with node",
+  "main": "index.js",
+  "author": "Carl Xiong <xiongc05@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "vorpal": "^1.11.4"
+  }
+}
