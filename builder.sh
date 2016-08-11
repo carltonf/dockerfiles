@@ -23,7 +23,18 @@ versioned_tag="${base_tag}:$DATE_VERSION"
 # NOTE for local convenience, mainly
 latest_tag="${base_tag}:latest"
 
-docker build --label="GIT_COMMIT=$GIT_META" \
+print-build-info () {
+    echo "********************************"
+    echo "* Build Info: "
+    echo "** Image: $base_tag"
+    echo "** Tag: $versioned_tag"
+    echo "** ARG: GIT_COMMIT=$GIT_META"
+    echo "********************************"
+};
+
+print-build-info
+
+docker build --build-arg "GIT_COMMIT=$GIT_META" \
        --tag="$versioned_tag" \
        .
 
