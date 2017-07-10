@@ -1,3 +1,9 @@
+# Current Version
+
+20170710: solving the caveats found in the 20160808.
+
+**NOTE:** This version is created with `docker commit` for convenience.
+
 # Caveats
 ## ver 20160808
 
